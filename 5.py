@@ -13,4 +13,12 @@ if k>1:
     while i<(k+1):
         Fibbonachi_list.append(Fibbonachi_list[i-2]+Fibbonachi_list[i-1])
         i+=1
+Fibbonachi_list.reverse()
+Fibbonachi_list.append(1)
+if k>1:
+    i=k+2
+    while i<(2*k+1):
+        Fibbonachi_list.append(Fibbonachi_list[i-2]-Fibbonachi_list[i-1])
+        i+=1
+Fibbonachi_list.reverse()
 print(Fibbonachi_list)
