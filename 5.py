@@ -9,8 +9,8 @@ Fibbonachi_list=[]
 Fibbonachi_list.append(0)
 Fibbonachi_list.append(1)
 if k>1:
-    i=1
-    while i<=k:
+    i=2
+    while i<(k+1):
         Fibbonachi_list.append(Fibbonachi_list[i-2]+Fibbonachi_list[i-1])
         i+=1
 print(Fibbonachi_list)
